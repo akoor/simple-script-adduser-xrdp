@@ -11,6 +11,8 @@ adduser kel7
 adduser kel8
 adduser kel9
 adduser kel10
+adduser kel11
+adduser kel12
 
 echo "ganti usermod"
 usermod -aG sudo kel1
@@ -23,6 +25,8 @@ usermod -aG sudo kel7
 usermod -aG sudo kel8
 usermod -aG sudo kel9
 usermod -aG sudo kel10
+usermod -aG sudo kel11
+usermod -aG sudo kel12
 
 echo "jalankan installasi xrdp"
 apt-get install xrdp
